@@ -1,5 +1,7 @@
 # Recipes Project
 
+https://recipes-alvon.netlify.app/
+
 Web application for searching food recipes.
 
 Available search queries:
