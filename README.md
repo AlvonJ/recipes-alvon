@@ -1,8 +1,8 @@
 # Recipes Project
 
-https://recipes-alvon.netlify.app/
+Web application for searching food recipes with asynchronus javascript using MVC architecture.
 
-Web application for searching food recipes.
+https://recipes-alvon.netlify.app/
 
 Available search queries:
 carrot
