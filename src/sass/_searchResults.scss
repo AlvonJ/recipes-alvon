@@ -2,11 +2,25 @@
   padding: 3rem 0;
   display: flex;
   flex-direction: column;
+
 }
 
 .results {
   list-style: none;
   margin-bottom: 2rem;
+
+  
+  @media only screen and (max-width: $bp-smallest) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+.preview {
+  @media only screen and (max-width: $bp-smallest) {
+    width: 24rem;
+  }
 }
 
 .pagination {

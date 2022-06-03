@@ -10,6 +10,11 @@
     height: 4.6rem;
     display: block;
   }
+  @media only screen and (max-width: $bp-smallest) {
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    height: 12rem;
+  }
 }
 
 .search {
@@ -102,6 +107,8 @@
       background-color: $color-grey-light-2;
     }
   }
+
+
 }
 
 .bookmarks {
@@ -120,6 +127,10 @@
 
   &__list {
     list-style: none;
+    
+    .preview {
+      width: 100%;
+    }
   }
 
   &__field {
@@ -141,4 +152,6 @@
     visibility: visible;
     opacity: 1;
   }
+
+
 }
